@@ -1,28 +1,47 @@
-
-
-h5{
-   font-family: nasalization, sans-serif;
-
-font-weight: 400;
-
-font-style: normal;
-color: whitesmoke;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 
+}
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
+}
+
+h5 {
+  font-family: nasalization, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+  color: whitesmoke;
+}
 
 body {
-
   background: rgba(16.75000190734863, 16.75000190734863, 16.75000190734863, 1);
 }
 
-
-header{
-   height: 100vh;
-   position: relative;;
+header {
+  height: 100vh;
+  position: relative;
 }
 
-.card{
+.card {
   background: rgba(16.75000190734863, 16.75000190734863, 16.75000190734863, 1);
 }
+

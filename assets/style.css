@@ -29,7 +29,6 @@
 }
 
 .btn {
-  font-family: nasalization, sans-serif;
 
   font-weight: 400;
 
@@ -48,4 +47,5 @@ header {
 
 .card {
   background: rgba(16.75000190734863, 16.75000190734863, 16.75000190734863, 1);
+  height: 100vh;
 }

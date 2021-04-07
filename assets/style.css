@@ -56,6 +56,11 @@ header {
   color: yellowgreen;
 }
 
-.nav-link{
-    font-family: myFont2;
+.nav-link {
+  font-family: myFont2;
+}
+
+#resources {
+  font-family: myFont2;
+  font-size: 30pxg;
 }

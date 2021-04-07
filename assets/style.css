@@ -6,6 +6,10 @@
   font-family: myFont2;
   src: url(./font/DxSitrus-Expanded.otf);
 }
+@font-face {
+  font-family: badbad;
+  src: url(./font/DxSitrus-ExpandedItalic.otf);
+}
 
 * {
   font-family: myFont2;
@@ -29,13 +33,6 @@
   font-size: 34px;
 }
 
-.btn {
-  font-weight: 400;
-  font-size: 50px;
-  font-style: normal;
-  color: whitesmoke;
-}
-
 body {
   background: rgba(16.75000190734863, 16.75000190734863, 16.75000190734863, 1);
 }
@@ -50,9 +47,9 @@ header {
   height: auto;
 }
 
-.about-me {
+.start-format {
   font-family: myFont2;
-  font-size: 36px;
+  font-size: 30px;
   color: yellowgreen;
 }
 
@@ -63,4 +60,12 @@ header {
 #resources {
   font-family: myFont2;
   font-size: 30pxg;
+}
+
+.btn {
+  font-family: badbad;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+  color: whitesmoke;
 }

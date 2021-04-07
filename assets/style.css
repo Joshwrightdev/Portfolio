@@ -19,12 +19,12 @@
 .font-3 {
   font-family: myFont;
   color: red;
-  font-size: 34px;
+  font-size: 30px;
 }
 .font-4 {
   font-family: myFont;
   color: yellow;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .font-3 {
@@ -42,6 +42,14 @@ header {
   position: relative;
 }
 
+.headerclass2{
+  font-size: 80px;
+}
+.headerclass3{
+  font-size: 50px;
+  font-weight: 900;
+}
+
 .card {
   background: rgba(16.75000190734863, 16.75000190734863, 16.75000190734863, 1);
   height: auto;
@@ -49,7 +57,7 @@ header {
 
 .start-format {
   font-family: myFont2;
-  font-size: 30px;
+  font-size: 70px;
   color: yellowgreen;
 }
 
@@ -72,8 +80,7 @@ header {
 .btn-2 {
   font-family: badbad;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 50px;
   font-style: normal;
   color: #028090;
 }
-

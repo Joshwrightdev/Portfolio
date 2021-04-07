@@ -19,13 +19,19 @@
 }
 
 @font-face {
-  font-family: MyFont;
+  font-family: myFont;
   src: url(./font/NeueMetana-Regular.otf);
+}
+@font-face {
+  font-family: myFont2;
+  src: url(./font/DxSitrus-Expanded.otf);
 }
 
 * {
-  font-family: MyFont;
+  font-family: myFont2;
   color: antiquewhite;
+    color: yellowgreen;
+
 }
 
 .btn {
@@ -42,9 +48,17 @@ body {
 header {
   height: 100vh;
   position: relative;
+  
 }
 
 .card {
   background: rgba(16.75000190734863, 16.75000190734863, 16.75000190734863, 1);
   height: 100vh;
+}
+
+
+.about-me{
+  font-family:myFont2 ;
+  font-size: 40px;
+  color: yellowgreen;
 }

@@ -1,8 +1,6 @@
-
-
 @font-face {
   font-family: myFont;
-  src: url(./font/NeueMetana-Regular.otf);
+  src: url(./font/Groteskly\ Yours\ -\ Resist\ Sans\ Text\ Light.otf);
 }
 @font-face {
   font-family: myFont2;
@@ -11,14 +9,29 @@
 
 * {
   font-family: myFont2;
-  color: antiquewhite;
-    color: yellowgreen;
+  color: yellowgreen;
+}
 
+.font-3 {
+  font-family: myFont;
+  color: red;
+  font-size: 34px;
+}
+.font-4 {
+  font-family: myFont;
+  color: yellow;
+  font-size: 36px;
+}
+
+.font-3 {
+  font-family: myFont;
+  color: red;
+  font-size: 34px;
 }
 
 .btn {
   font-weight: 400;
-
+  font-size: 50px;
   font-style: normal;
   color: whitesmoke;
 }
@@ -30,7 +43,6 @@ body {
 header {
   height: 100vh;
   position: relative;
-  
 }
 
 .card {
@@ -38,9 +50,8 @@ header {
   height: auto;
 }
 
-
-.about-me{
-  font-family:myFont2 ;
+.about-me {
+  font-family: myFont2;
   font-size: 40px;
   color: yellowgreen;
 }

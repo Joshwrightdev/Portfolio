@@ -55,3 +55,7 @@ header {
   font-size: 36px;
   color: yellowgreen;
 }
+
+.nav-link{
+    font-family: myFont2;
+}

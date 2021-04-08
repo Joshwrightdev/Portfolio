@@ -53,6 +53,7 @@ header {
 .card {
   background: rgba(16.75000190734863, 16.75000190734863, 16.75000190734863, 1);
   height: auto;
+  border-style: none;
 }
 
 .start-format {

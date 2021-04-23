@@ -1,36 +1,21 @@
-@font-face {
-  font-family: myFont;
-  src: url(./font/Groteskly\ Yours\ -\ Resist\ Sans\ Text\ Light.otf);
-}
-@font-face {
-  font-family: myFont2;
-  src: url(./font/DxSitrus-Expanded.otf);
-}
-@font-face {
-  font-family: badbad;
-  src: url(./font/DxSitrus-ExpandedItalic.otf);
-}
-
 * {
-  font-family: myFont2;
-  color: yellowgreen;
+  font-family: "Clash Display", sans-serif;
+
+  color: white;
+}
+img {
+  -webkit-filter: invert(100%);
 }
 
-.font-3 {
-  font-family: myFont;
-  color: red;
-  font-size: 30px;
+ {
+  position: absolute;
+  z-index: 1;
 }
-.font-4 {
-  font-family: myFont;
-  color: yellow;
-  font-size: 32px;
-}
-
-.font-3 {
-  font-family: myFont;
-  color: red;
-  font-size: 34px;
+.fish {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 2;
 }
 
 body {
@@ -42,14 +27,6 @@ header {
   position: relative;
 }
 
-.headerclass2 {
-  font-size: 80px;
-}
-.headerclass3 {
-  font-size: 50px;
-  font-weight: 900;
-}
-
 .card {
   background: rgba(16.75000190734863, 16.75000190734863, 16.75000190734863, 1);
   height: auto;
@@ -57,42 +34,10 @@ header {
 }
 
 .start-format {
-  font-family: myFont2;
   font-size: 70px;
-  color: yellowgreen;
-}
-
-.nav-link {
-  font-family: myFont2;
+  color: white;
 }
 
 #resources {
-  font-family: myFont2;
-  color: orange;
-}
-
-.btn {
-  font-family: badbad;
-  font-weight: 400;
-  font-size: 50px;
-  margin: 10px;
-  font-style: normal;
-  color: #028090;
-}
-.btn-2 {
-  font-family: badbad;
-  font-weight: 400;
-  margin: 5px;
-  font-size: 50px;
-  font-style: normal;
-  color: #028090;
-}
-.linkedin {
-  color: #0077b5;
-  text-decoration-line:none ;
-}
-.wavylink{
-  font-size: 40px;
-  color: orangered;
-  text-decoration-style: wavy;
+  color: whitesmoke;
 }

@@ -3,19 +3,32 @@
 
   color: white;
 }
-img {
-  -webkit-filter: invert(100%);
+.fa-react {
+  font-size: 50px;
+  color: #00d8ff;
 }
-
- {
-  position: absolute;
-  z-index: 1;
+.fa-js-square {
+  font-size: 50px;
+  color: #f0db4f;
 }
-.fish {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  z-index: 2;
+.fa-i-cursor {
+  font-size: 50px;
+  color: #007acc;
+}
+.fa-node-js {
+  font-size: 50px;
+  color: #3c873a;
+}
+.fa-java {
+  font-size: 50px;
+  color: #aecec8;
+}
+.fa-python {
+  font-size: 50px;
+  color: #4890c0;
+}
+.icon-group{
+  margin-top: 100px;
 }
 
 body {

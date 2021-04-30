@@ -35,6 +35,11 @@
   width: 100vw;
 }
 
+
+.card{
+  width: 100vw;
+}
+
 body {
   background: rgba(16.75000190734863, 16.75000190734863, 16.75000190734863, 1);
   overflow-x: hidden;

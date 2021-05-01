@@ -46,7 +46,7 @@ body {
 }
 
 header {
-  height: 100vh;
+  height: 55vh;
   position: relative;
 }
 
@@ -67,4 +67,8 @@ header {
 
 .apiborder{
   border: 5 px dotted wheat;
+}
+
+.headerimg{
+width: 100vw;
 }

@@ -4,7 +4,6 @@
 }
 
 @font-face {
-  
   font-family: myFirstFont;
   src: url(./font/NeueMontreal-FreeForPersonalUse/NeueMontreal-Bold.otf);
 }
@@ -63,7 +62,7 @@ body {
   border-style: none;
 }
 
-.projlinks{
+.projlinks {
   text-decoration-line: none;
 }
 
@@ -88,44 +87,4 @@ body {
 .about-me {
   border-radius: 10px;
   margin: 40px;
-  background: linear-gradient(270deg, #000000, #f3f3f3);
-  background-size: 400% 400%;
-
-  -webkit-animation: AnimationName 17s ease infinite;
-  -moz-animation: AnimationName 17s ease infinite;
-  animation: AnimationName 17s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 0% 42%;
-  }
-  50% {
-    background-position: 100% 59%;
-  }
-  100% {
-    background-position: 0% 42%;
-  }
-}
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 0% 42%;
-  }
-  50% {
-    background-position: 100% 59%;
-  }
-  100% {
-    background-position: 0% 42%;
-  }
-}
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 42%;
-  }
-  50% {
-    background-position: 100% 59%;
-  }
-  100% {
-    background-position: 0% 42%;
-  }
 }
